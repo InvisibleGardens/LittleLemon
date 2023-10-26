@@ -10,7 +10,7 @@ class Menu(models.Model):
         app_label = 'restaurant'
 
     def __str__(self):
-        return self.name
+        return f'{self.title} : {str(self.price)}'
 
     
 
